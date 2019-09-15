@@ -1,6 +1,6 @@
 ﻿namespace CoffeeShopConsoleApp
 {
-    internal class Cortado : Coffee, IMilk
+    public class Cortado : Coffee, IMilk
     {
         public Cortado(int discount, CoffeeType coffeeType) : base(discount, coffeeType)
         {
